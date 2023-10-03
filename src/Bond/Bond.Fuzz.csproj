@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="SharpFuzz"/>
+    <PackageReference Include="Bond.Core.CSharp"/>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>$(DotnetVersion)</TargetFramework>
+  </PropertyGroup>
+
+</Project>
